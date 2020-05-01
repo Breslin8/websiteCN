@@ -1,0 +1,169 @@
+/* .header { 
+        background-color: black;
+        color: blue;
+        text-align: center
+        
+
+  }
+  
+
+
+
+
+p {color: blue}
+p{font-size: 15px;}
+p{font-family: "Lucida Console", Courier, monospace;}
+p{text-align:center;}
+
+a{color:black;}
+a{font-family: "Lucida Console", Courier, monospace;}
+a{font-size: 20px;}
+
+
+body {background-color: black;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(35, 12, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(74, 12, 245, 0.2);
+    z-index: 5;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {background-color: red;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  padding: 5px;
+  background: mediumturquoise;
+  font-size: medium;
+  color: brown ;
+  text-align: center;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: mediumturquoise;
+}
+
+.header h1 {
+  font-size: 20px;
+  
+}
+
+
+.topnav {
+  overflow: auto;
+  background-color: mediumturquoise;
+}
+
+
+.topnav a {
+  float: left;
+  overflow:visible;
+  color:brown;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color:white;
+  color: mediumturquoise;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color: mediumturquoise;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: mediumturquoise;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: mediumturquoise;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: mediumturquoise;
+  padding: 15px;
+  margin-top: 18px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+  
